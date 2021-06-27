@@ -1,20 +1,14 @@
 ## e-commerce
 
-
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://ayadalshaikhli.github.io/apiproject/">
     <img src="/assets/img/pagescreencapture.png" alt="screenshot" >
-  </a>
 
-  <h3 align="center">Ball Finder</h3>
+  <h3 align="center">E-Commerce</h3>
 
   <p align="center">
-    An awesome Website to search up coming events
-    <br />
-    <a href="https://ayadalshaikhli.github.io/apiproject/"><strong>Explore the Website »</strong></a>
-    <br />
+    This application is designed for companies to track their products by category, product, and tag.
   </p>
 </p>
 
@@ -37,27 +31,29 @@
 
 ## About The Project
 
-Ballfinder is a web app that enables you to search for your favorite team's upcoming matches and find out Where, When, and Who your team is playing against as well as what league/cup they're playing in!
+e-commerce back end which allows for creation, review, update, and deletion
 
 ### Built With
 
 - [JavaScript](https://www.javascript.com/)
-- [HTML](https://html.com/)
-- [CSS](https://www.google.com/)
-- [Bulma](https://bulma.io/)
-- [MapBox](https://www.mapbox.com/)
-- [thesportApi](https://www.thesportsdb.com/)
+- [MySQL](https://www.mysql.com/)
+- [Express](https://expressjs.com/)
+- [Dotenv](https://www.npmjs.com/package/dotenv)
+- [Sequelize](https://sequelize.org/v3/)
 
 ## Usage
-The web page asks for your team name, then after submitting, will display all the upcoming events for you team with the date and time. It will also show the location of the stadium that the games are going to be played at.
 
+WHEN I add my database name, MySQL username, and MySQL password to an environment variable file, THEN I am able to connect to a database using Sequelize
+WHEN I enter schema and seed commands, THEN a development database is created and is seeded with test data
+WHEN I enter the command to invoke the application, THEN my server is started and the Sequelize models are synced to the MySQL database
+WHEN I open API GET routes in Insomnia Core for categories, products, or tags, THEN the data for each of these routes is displayed in a formatted JSON
+WHEN I test API POST, PUT, and DELETE routes in Insomnia Core, THEN I am able to successfully create, update, and delete data in my database
 
 ## Credits
 
 1. https://www.w3schools.com/
 2. https://stackoverflow.com/
 3. https://github.com/
-4. https://www.thesportsdb.com/
-5. https://developer.mozilla.org/en-US/
-6. https://docs.mapbox.com/
-
+4. https://expressjs.com/
+5. https://www.npmjs.com/package/dotenv
+6. https://www.mysql.com/
