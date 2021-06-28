@@ -3,7 +3,6 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-    <img src="/assets/img/pagescreencapture.png" alt="screenshot" >
 
   <h3 align="center">E-Commerce</h3>
 
